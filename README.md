@@ -23,7 +23,7 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-       
+```       
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ import seaborn as sns
 df=pd.read_csv("/content/titanic_dataset.csv")
 df
 
-
+```
 ![image](https://github.com/user-attachments/assets/1672caf0-6143-41ef-9735-f8d8f48c0355)
 
 df.info()
